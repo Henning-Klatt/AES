@@ -19,3 +19,16 @@ Now 2 switches shall control 5 LEDs each:
 [Exercise_1/Task_3.vhd](Exercise_1/Task_3.vhd)
 
 ## Exercise 2:
+### Task 1:
+2-1 Multiplexer: [Exercise_2/A1/multiplexer.vhd](Exercise_2/A1/multiplexer.vhd)
+
+### Task 2:
+4-1 Multiplexer: [Exercise_2/A2/multiplexer.vhd](Exercise_2/A2/multiplexer.vhd)
+
+### Task 3:
+7 Segment Display: [Exercise_2/A3/multiplexer.vhd](Exercise_2/A3/multiplexer.vhd)
+
+### Task 4:
+Carry Ripple Adder: [Exercise_2/A4/rippleadder.vhd](Exercise_2/A4/rippleadder.vhd)
+
+## Exercise 3:
