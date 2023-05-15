@@ -32,3 +32,6 @@ Now 2 switches shall control 5 LEDs each:
 Carry Ripple Adder: [Exercise_2/A4/rippleadder.vhd](Exercise_2/A4/rippleadder.vhd)
 
 ## Exercise 3:
+Here we will refer to the [Altera tutorial](https://web.archive.org/web/20230515085651/https://docplayer.net/storage/48/24659104/1684144559/zhY50kay0iTjk9UwB2LhbA/24659104.pdf). Work through
+the tutorial Latches, Flip-flops, and Registers. The simulation steps and parts
+IV and V of the tutorial are not necessary.
