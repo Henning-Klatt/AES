@@ -10,6 +10,10 @@ GPIO - PIN assignments can be taken from the manual for the board:
 
 [DE10-Standard User Manual](https://web.archive.org/web/20230430073532/https%3A%2F%2Fftp.intel.com%2FPublic%2FPub%2Ffpgaup%2Fpub%2FIntel_Material%2FBoards%2FDE10-Standard%2FDE10_Standard_User_Manual.pdf)
 
+> Device family: Cyclone V (E/GX/GT/SX/SE/ST)
+> 
+> Name: 5CSXFC6D6F31C6
+
 ### Task 2:
 The LEDs 0-9 should now be connected directly to the buttons 0-9:
 [Exercise_1/Task_2.vhd](Exercise_1/Task_2.vhd)
@@ -18,7 +22,7 @@ The LEDs 0-9 should now be connected directly to the buttons 0-9:
 Now 2 switches shall control 5 LEDs each:
 [Exercise_1/Task_3.vhd](Exercise_1/Task_3.vhd)
 
-## Exercise 2:
+## Exercise 2: VHDL Basics
 ### Task 1:
 2-1 Multiplexer: [Exercise_2/A1/multiplexer.vhd](Exercise_2/A1/multiplexer.vhd)
 
@@ -31,7 +35,28 @@ Now 2 switches shall control 5 LEDs each:
 ### Task 4:
 Carry Ripple Adder: [Exercise_2/A4/rippleadder.vhd](Exercise_2/A4/rippleadder.vhd)
 
-## Exercise 3:
+## Exercise 3: Latches, Flip-flops, and Registers
 Here we will refer to the [Altera tutorial](https://web.archive.org/web/20230515085651/https://docplayer.net/storage/48/24659104/1684144559/zhY50kay0iTjk9UwB2LhbA/24659104.pdf). Work through
 the tutorial Latches, Flip-flops, and Registers. The simulation steps and parts
 IV and V of the tutorial are not necessary.
+### Task 1:
+A gated RS latch circuit: [Exercise_3/A1/part1.vhd](Exercise_3/A1/part1.vhd)
+
+Quartus II RTL Viewer tool:
+![Exercise_3/A1/rtl_viewer.png](Exercise_3/A1/rtl_viewer.png)
+ Technology Map Viewer tool:
+![Exercise_3/A1/map_viewer.png](Exercise_3/A1/map_viewer.png)
+
+### Task 2:
+Circuit for a gated D latch: [Exercise_3/A2/gatedDLatch.vhd](Exercise_3/A2/gatedDLatch.vhd)
+
+Technology Map Viewer tool:
+![Exercise_3/A2/map_viewer.png](Exercise_3/A2/map_viewer.png)
+
+Implementation of the gated D latch: [Exercise_3/A2/part2.vhd](Exercise_3/A2/part2.vhd)
+
+### Task 3:
+master-slave D flip-flop: [Exercise_3/A3/part3.vhd](Exercise_3/A3/part3.vhd)
+
+Technology Viewer:
+![Exercise_3/A3/map_viewer.png](Exercise_3/A3/map_viewer.png)
