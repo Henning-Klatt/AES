@@ -19,7 +19,7 @@ ARCHITECTURE behavior OF counter IS
 	END COMPONENT;
 
 	SIGNAL clk : STD_LOGIC; -- Clock (1 Hz?)
-	SIGNAL count : STD_LOGIC_VECTOR (24 DOWNTO 0); --tabsizeCounter
+	SIGNAL signal_count : STD_LOGIC_VECTOR (24 DOWNTO 0); --tabsizeCounter
 	SIGNAL signal_number : STD_LOGIC_VECTOR (3 DOWNTO 0); --tabsizeOutput number in hex
 	SIGNAL output : STD_LOGIC_VECTOR (6 DOWNTO 0); --tabsizeOutput for the hex display
 BEGIN
@@ -28,13 +28,19 @@ BEGIN
 
 	Digit0 : htb PORT MAP (signal_number, output);
 	
-	-- Make 1 Hz clock
-	PROCESS ( clk )
+	-- 1 Hz clock
+	PROCESS (clk)
+		VARIABLE count : INTEGER RANGE 0 TO 25000000;
 	BEGIN
-		IF RISING_EDGE(CLOCK_50) THEN -- Syncronize with the clock
-		
 		-- First of all an implementation for " counting " 1 second is needed
-		-- Think about overflow
+		IF RISING_EDGE(CLOCK_50) THEN -- Syncronize with the clock
+			IF count = 25000000 THEN -- Think about overflow
+				clk <= NOT clk;
+				count := 0;
+			ELSE
+				count := count + 1;
+			END IF;
+
 		END IF;
 	END PROCESS;
 
