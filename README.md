@@ -60,3 +60,10 @@ master-slave D flip-flop: [Exercise_3/A3/part3.vhd](Exercise_3/A3/part3.vhd)
 
 Technology Viewer:
 ![Exercise_3/A3/map_viewer.png](Exercise_3/A3/map_viewer.png)
+
+## Exercise 4: Counter in VHDL
+
+### Task 1:
+WiP:
+- [Exercise_4/A1/counter.vhd](Exercise_4/A1/counter.vhd)
+- [Exercise_4/A1/htb.vhd](Exercise_4/A1/htb.vhd)
