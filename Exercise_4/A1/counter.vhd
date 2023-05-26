@@ -7,7 +7,7 @@ use ieee.std_logic_unsigned.all;
 ENTITY counter IS
 	PORT (
 		CLOCK_50 : IN STD_LOGIC;
-		HEX0 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
+		HEX0 : OUT STD_LOGIC_VECTOR(0 TO 6)
 	);
 END counter;
 

@@ -65,14 +65,15 @@ Technology Viewer:
 
 ### Task 1:
 Single Digit Counter on 7 Segment Display
-(not tested)
 - [Exercise_4/A1/counter.vhd](Exercise_4/A1/counter.vhd)
 - [Exercise_4/A1/htb.vhd](Exercise_4/A1/htb.vhd)
 
 ### Task 2:
 Triple Digit Counter on 7 Segment Display
-(not tested)
 - [Exercise_4/A2/A2.vhd](Exercise_4/A2/A2.vhd)
 - [Exercise_4/A2/htb.vhd](Exercise_4/A2/htb.vhd)
+
+
+optional with 6x 7 Segment Display: [A3.vhd](Exercise_4/A3/A3.vhd)
 
 ## Exercise 5: Hardware CRC-Checker
