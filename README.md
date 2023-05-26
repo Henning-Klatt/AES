@@ -64,6 +64,15 @@ Technology Viewer:
 ## Exercise 4: Counter in VHDL
 
 ### Task 1:
-WiP:
+Single Digit Counter on 7 Segment Display
+(not tested)
 - [Exercise_4/A1/counter.vhd](Exercise_4/A1/counter.vhd)
 - [Exercise_4/A1/htb.vhd](Exercise_4/A1/htb.vhd)
+
+### Task 2:
+Triple Digit Counter on 7 Segment Display
+(not tested)
+- [Exercise_4/A2/A2.vhd](Exercise_4/A2/A2.vhd)
+- [Exercise_4/A2/htb.vhd](Exercise_4/A2/htb.vhd)
+
+## Exercise 5: Hardware CRC-Checker
