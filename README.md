@@ -77,3 +77,8 @@ Triple Digit Counter on 7 Segment Display
 optional with 6x 7 Segment Display: [A3.vhd](Exercise_4/A3/A3.vhd)
 
 ## Exercise 5: Hardware CRC-Checker
+online CRC Checker that works and is easy to understand: [https://asecuritysite.com/comms/crc_div](https://asecuritysite.com/comms/crc_div)
+
+- [Exercise_5/A1/A1.vhd](Exercise_5/A1/A1.vhd)
+- [Exercise_5/A1/CRC.vhd](Exercise_5/A1/CRC.vhd)
+
