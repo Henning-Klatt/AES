@@ -82,3 +82,9 @@ online CRC Checker that works and is easy to understand: [https://asecuritysite.
 - [Exercise_5/A1/A1.vhd](Exercise_5/A1/A1.vhd)
 - [Exercise_5/A1/CRC.vhd](Exercise_5/A1/CRC.vhd)
 
+
+## Exercise 6: CRC checker as NIOS II component
+
+## Exercise 7: NIOS II
+
+[Introduction to the Platform Designer Tool](https://web.archive.org/web/20230622120316/https://ftp.intel.com/Public/Pub/fpgaup/pub/Teaching_Materials/current/Tutorials/Introduction_to_the_Qsys_Tool.pdf)
