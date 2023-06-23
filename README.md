@@ -85,6 +85,12 @@ online CRC Checker that works and is easy to understand: [https://asecuritysite.
 
 ## Exercise 6: CRC checker as NIOS II component
 
+Generator/Polynom: 8 bit
+
+- [Exercise_6/A1.vhd](Exercise_6/A1.vhd)
+- [Exercise_6/CRC.vhd](Exercise_6/CRC.vhd)
+
+
 ## Exercise 7: NIOS II
 
 [Introduction to the Platform Designer Tool](https://web.archive.org/web/20230622120316/https://ftp.intel.com/Public/Pub/fpgaup/pub/Teaching_Materials/current/Tutorials/Introduction_to_the_Qsys_Tool.pdf)
