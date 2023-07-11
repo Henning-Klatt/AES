@@ -24,16 +24,19 @@ void printbinary(unsigned int reg, int length){
 
 
 int main() {
-	unsigned int message = 0xffffffff;
-	unsigned int polynom = 0b11000001;
+    unsigned int message = 0xffffffff;
+    unsigned int polynom = 0b11000001;
+    
     printf("Enter Polynom (decimal): ");
     scanf("%u",&polynom);
+    
     unsigned int polynom32 = polynom <<= (32-8);
 
     printf("Enter Message (decimal): ");
     scanf("%u",&message);
 
     polynom32 <<=(1); // führende 1 abschneiden
+    
     printf("Polynom: ");
     printbinary(polynom32,32);
     printf("\n");
@@ -42,7 +45,7 @@ int main() {
     printbinary(message, 32);
     printf("\n");
 
-	for (int i = 0; i < 32; i++) {
+    for (int i = 0; i < 32; i++) {
         if (msb(message)) {
             message <<= 1;
             message = (message ^ polynom32);
@@ -53,7 +56,8 @@ int main() {
         printf("message:%i   " , i);
         printbinary(message,32);
         printf("\n");
-	}
+    }
+    
     printbinary(message, 7);
     return 1;
 }
