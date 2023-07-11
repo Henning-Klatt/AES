@@ -94,3 +94,10 @@ Generator/Polynom: 8 bit
 ## Exercise 7: NIOS II
 
 [Introduction to the Platform Designer Tool](https://web.archive.org/web/20230622120316/https://ftp.intel.com/Public/Pub/fpgaup/pub/Teaching_Materials/current/Tutorials/Introduction_to_the_Qsys_Tool.pdf)
+
+## Exercise 8: Software-CRC
+
+
+## Exercise 9: Hardware/Software Co-Design
+
+[Making Qsys Components](https://web.archive.org/web/20230711124620/https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/Making_Qsys_Components_15_0.pdf)
