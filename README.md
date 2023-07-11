@@ -95,8 +95,11 @@ Generator/Polynom: 8 bit
 
 [Introduction to the Platform Designer Tool](https://web.archive.org/web/20230622120316/https://ftp.intel.com/Public/Pub/fpgaup/pub/Teaching_Materials/current/Tutorials/Introduction_to_the_Qsys_Tool.pdf)
 
+- [lights.c](Exercise_7/app_software/lights.c)
+
 ## Exercise 8: Software-CRC
 
+- [crc.c](Exercise_8/app_software/crc.c)
 
 ## Exercise 9: Hardware/Software Co-Design
 
