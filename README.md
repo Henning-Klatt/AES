@@ -104,3 +104,6 @@ Generator/Polynom: 8 bit
 ## Exercise 9: Hardware/Software Co-Design
 
 [Making Qsys Components](https://web.archive.org/web/20230711124620/https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/Making_Qsys_Components_15_0.pdf)
+
+- [crc.vhd](Exercise_9/crc.vhd)
+- [component_tutorial.vhd](Exercise_9/component_tutorial.vhd)
